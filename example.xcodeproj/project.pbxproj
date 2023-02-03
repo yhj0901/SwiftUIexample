@@ -14,6 +14,9 @@
 		4DB398D6298CAF5F0083B1AF /* exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB398D5298CAF5F0083B1AF /* exampleTests.swift */; };
 		4DB398E0298CAF5F0083B1AF /* exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB398DF298CAF5F0083B1AF /* exampleUITests.swift */; };
 		4DB398E2298CAF5F0083B1AF /* exampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB398E1298CAF5F0083B1AF /* exampleUITestsLaunchTests.swift */; };
+		4DB398F0298CB53C0083B1AF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB398EF298CB53C0083B1AF /* WebKit.framework */; };
+		4DB398F2298CF3620083B1AF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB398F1298CF3620083B1AF /* CircleImage.swift */; };
+		4DB398F4298CF4BD0083B1AF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB398F3298CF4BD0083B1AF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		4DB398DB298CAF5F0083B1AF /* exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB398DF298CAF5F0083B1AF /* exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleUITests.swift; sourceTree = "<group>"; };
 		4DB398E1298CAF5F0083B1AF /* exampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DB398EF298CB53C0083B1AF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		4DB398F1298CF3620083B1AF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4DB398F3298CF4BD0083B1AF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB398F0298CB53C0083B1AF /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,7 @@
 				4DB398D4298CAF5F0083B1AF /* exampleTests */,
 				4DB398DE298CAF5F0083B1AF /* exampleUITests */,
 				4DB398C1298CAF5D0083B1AF /* Products */,
+				4DB398EE298CB53C0083B1AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +106,8 @@
 				4DB398C3298CAF5D0083B1AF /* exampleApp.swift */,
 				4DB398C5298CAF5D0083B1AF /* ContentView.swift */,
 				4DB398C7298CAF5E0083B1AF /* Assets.xcassets */,
+				4DB398F1298CF3620083B1AF /* CircleImage.swift */,
+				4DB398F3298CF4BD0083B1AF /* MapView.swift */,
 				4DB398C9298CAF5E0083B1AF /* example.entitlements */,
 				4DB398CA298CAF5E0083B1AF /* Preview Content */,
 			);
@@ -127,6 +137,14 @@
 				4DB398E1298CAF5F0083B1AF /* exampleUITestsLaunchTests.swift */,
 			);
 			path = exampleUITests;
+			sourceTree = "<group>";
+		};
+		4DB398EE298CB53C0083B1AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB398EF298CB53C0083B1AF /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB398C6298CAF5D0083B1AF /* ContentView.swift in Sources */,
+				4DB398F4298CF4BD0083B1AF /* MapView.swift in Sources */,
 				4DB398C4298CAF5D0083B1AF /* exampleApp.swift in Sources */,
+				4DB398F2298CF3620083B1AF /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
